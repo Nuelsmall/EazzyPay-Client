@@ -1,0 +1,197 @@
+.heroMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  padding: 60px;
+}
+.heroMain .payment-t {
+  color: #001246;
+  font-family: Roboto;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 121.687%; /* 82.747px */
+}
+.heroMain .platform-t {
+  margin-top: -60px;
+  color: #666;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.heroMain .eazy-t {
+  background: linear-gradient(98deg, #60269e 1.96%, #03cffc 36.81%, #b977ff 77.81%, #6508c9 100.36%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Roboto;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 121.687%;
+}
+.heroMain .heroBtn-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: -350px;
+}
+.heroMain .heroBtn-layout .getBtn {
+  cursor: pointer;
+  border-radius: 50px;
+  background: #001246;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 51px;
+  padding: 15px 50px;
+  font-size: 16px;
+}
+.heroMain .heroBtn-layout .joinBtn {
+  cursor: pointer;
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid #001246;
+}
+.heroMain .heroImg {
+  margin-right: 150px;
+}
+
+.signFund {
+  width: 1326px;
+  height: 359px;
+  margin: 0 auto;
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.signFund .sign {
+  background: white;
+  height: 369px;
+  width: 442px;
+}
+.signFund .sign .sf-inside {
+  background: white;
+  height: 269px;
+  width: 269px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.signFund .sign .sf-inside > :nth-child(2) {
+  color: #001246;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -30px;
+}
+.signFund .sign .sf-inside > :nth-child(3) {
+  height: 71px;
+  color: #676767;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.188%;
+  text-align: center;
+  margin-top: -60px;
+}
+.signFund .sign:hover {
+  box-shadow: 2px 11px 15px 2px rgba(51, 51, 51, 0.15), -2px -11px 15px 0px rgba(96, 38, 158, 0.15);
+}
+.signFund .fund {
+  background: white;
+  height: 369px;
+  width: 442px;
+}
+.signFund .fund:hover {
+  box-shadow: 2px 11px 15px 2px rgba(51, 51, 51, 0.15), -2px -11px 15px 0px rgba(96, 38, 158, 0.15);
+}
+.signFund .fundInside {
+  background: white;
+  height: 269px;
+  width: 269px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.signFund .fundInside > :nth-child(2) {
+  color: #001246;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -30px;
+}
+.signFund .fundInside > :nth-child(3) {
+  height: 71px;
+  color: #676767;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.188%;
+  text-align: center;
+  margin-top: -60px;
+}
+.signFund .pay {
+  background: white;
+  height: 369px;
+  width: 442px;
+}
+.signFund .pay .payInside {
+  background: white;
+  height: 269px;
+  width: 269px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.signFund .pay .payInside > :nth-child(2) {
+  color: #001246;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -30px;
+}
+.signFund .pay .payInside > :nth-child(3) {
+  height: 71px;
+  color: #676767;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.188%;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.pay:hover {
+  box-shadow: 2px 11px 15px 2px rgba(51, 51, 51, 0.15), -2px -11px 15px 0px rgba(96, 38, 158, 0.15);
+}/*# sourceMappingURL=Hero.css.map */
